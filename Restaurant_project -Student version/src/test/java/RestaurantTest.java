@@ -70,15 +70,15 @@ class RestaurantTest {
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     //<<<<<<<<<<<<<<<<<<<<<<<<<TotalOrder>>>>>>>>>>>>>>>>>>>>>
 
-//    @Test
-//    public void calculatingTotalOrderCost(){
-//         List<String> itemToOrder = new  ArrayList<String>();
-//         itemToOrder.add("Sweet corn soup");
-//         itemToOrder.add("Vegetable lasagne");
-//         int totalcost = restaurant.orderTotal(itemToOrder);
-//         assertEquals(388,totalcost);
-//
-//    }
+   @Test
+   public void calculatingTotalOrderCost(){
+        List<String> itemToOrder = new  ArrayList<String>();
+        itemToOrder.add("Sweet corn soup");
+        itemToOrder.add("Vegetable lasagne");
+        int totalcost = restaurant.orderTotal(itemToOrder);
+        assertEquals(388,totalcost);
+
+   }
 
 
     //<<<<<<<<<<<<<<<<<<<<<<<<<TotalOrder>>>>>>>>>>>>>>>>>>>>>
