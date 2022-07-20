@@ -71,13 +71,13 @@ public class Restaurant {
     public String getName() {
         return name;
     }
-//    public int  orderTotal(List <String>selectedItems){
-//
-//        int totalCost = 0 ;
-//        for(String temp : selectedItems){
-//            totalCost  = totalCost + findItemByName(temp).getPrice();
-//        }
-//        return totalCost;
-//    }
+   public int  orderTotal(List <String>selectedItems){
+
+       int totalCost = 0 ;
+    //    for(String temp : selectedItems){
+    //        totalCost  = totalCost + findItemByName(temp).getPrice();
+    //    }
+       return totalCost;
+   }
 
 }
