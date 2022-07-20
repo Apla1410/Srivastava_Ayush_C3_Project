@@ -74,9 +74,9 @@ public class Restaurant {
    public int  orderTotal(List <String>selectedItems){
 
        int totalCost = 0 ;
-    //    for(String temp : selectedItems){
-    //        totalCost  = totalCost + findItemByName(temp).getPrice();
-    //    }
+       for(String temp : selectedItems){
+           totalCost  = totalCost + findItemByName(temp).getPrice();
+       }
        return totalCost;
    }
 
